@@ -1,0 +1,25 @@
+#contact {
+  text-transform: uppercase;
+}
+
+#personal {
+  /* max-width: 25%; */
+  padding: 1rem;
+}
+
+#personal ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+#personal ul li {
+  margin-bottom: 1rem;
+}
+
+#personal .icon {
+  margin-right: 0.25rem;
+}
+
+.personal__data,
+.personal__data--link {
+}
