@@ -18,6 +18,8 @@ body {
 main {
   display: flex;
   flex: 1 0 auto;
+  max-width: min(100%, 700px);
+  margin: auto;
 }
 
 footer {
@@ -26,6 +28,9 @@ footer {
   text-align: center;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  max-width: min(100%, 700px);
+  margin: auto;
+  box-sizing: border-box;
 }
 
 #name,
@@ -35,7 +40,8 @@ footer {
 
 #name {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 #name__subtitle {
@@ -45,12 +51,10 @@ footer {
 
 #history {
   flex-grow: 1;
-  padding-left: 2rem;
-  padding-right: 5rem;
+  padding-left: 1rem;
 }
 
 #history section {
-  padding-left: 2rem;
 }
 
 #history .section-title {
@@ -59,6 +63,8 @@ footer {
 
 #history ol {
   list-style-type: none;
+  padding: 0;
+  margin-left: 1rem;
 }
 
 #history ol li {
@@ -66,8 +72,13 @@ footer {
 }
 
 #history .date-range {
+  flex-shrink: 0;
   margin-right: 1rem;
   font-weight: bold;
+}
+
+#history .list-item__wrapper {
+  flex-grow: 0;
 }
 
 #history .list-item__header {
@@ -79,4 +90,29 @@ footer {
   margin: 0;
   font-style: italic;
   font-size: 0.9rem;
+}
+
+.skills__container {
+  width: fit-content;
+  padding-left: rem;
+}
+.skills__wrapper {
+  display: flex;
+  padding: 0.5rem;
+}
+.skills__wrapper:nth-child(2n) {
+  display: flex;
+  background-color: #eeeeee;
+}
+.skills__list {
+  width: 60%;
+  columns: 2;
+  margin: 0;
+}
+.skills__title {
+  width: 40%;
+  margin: 0;
+}
+.skills__list-item {
+  margin-bottom: 0.4rem;
 }

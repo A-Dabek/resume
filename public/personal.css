@@ -11,20 +11,25 @@
   border-radius: 50%;
   border: solid 3px black;
   box-shadow: 0 0 3px transparent;
+  margin: auto;
+  margin-top: 1.5rem;
 }
 
 #personal {
-  /* max-width: 25%; */
-  padding: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  background-color: #eeeeee;
 }
 
 #personal ul {
   list-style-type: none;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 #personal ul li {
+  display: flex;
   margin-bottom: 1rem;
+  align-items: baseline;
 }
 
 #personal .icon {
