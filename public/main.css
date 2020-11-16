@@ -27,3 +27,56 @@ footer {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+
+#name,
+#name__subtitle {
+  text-transform: uppercase;
+}
+
+#name {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+#name__subtitle {
+  margin: 0;
+  font-size: 1rem;
+}
+
+#history {
+  flex-grow: 1;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+#history section {
+  padding-left: 2rem;
+}
+
+#history .section-title {
+  text-transform: uppercase;
+}
+
+#history ol {
+  list-style-type: none;
+}
+
+#history ol li {
+  display: flex;
+}
+
+#history .date-range {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+#history .list-item__header {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+#history .list-item__subtitle {
+  margin: 0;
+  font-style: italic;
+  font-size: 0.9rem;
+}
