@@ -1,18 +1,19 @@
 #contact {
   text-transform: uppercase;
+  text-align: center;
+  font-size: 1.125rem;
+  margin-top: 2.5rem;
 }
 
 #photo {
   display: block;
-  max-width: 200px;
-  max-height: 95px;
+  max-width: calc(709px * 0.2);
+  max-height: calc(1024px * 0.2);
   width: auto;
   height: auto;
-  border-radius: 50%;
-  border: solid 3px black;
-  box-shadow: 0 0 3px transparent;
+  border: solid 2px #dddddd;
   margin: auto;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 #personal {

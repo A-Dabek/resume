@@ -59,6 +59,8 @@ footer {
 
 #history .section-title {
   text-transform: uppercase;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 #history ol {
@@ -99,20 +101,28 @@ footer {
 .skills__wrapper {
   display: flex;
   padding: 0.5rem;
+  padding-left: 1rem;
 }
 .skills__wrapper:nth-child(2n) {
   display: flex;
   background-color: #eeeeee;
 }
 .skills__list {
-  width: 60%;
+  width: 70%;
   columns: 2;
   margin: 0;
 }
 .skills__title {
-  width: 40%;
+  width: 30%;
   margin: 0;
 }
 .skills__list-item {
   margin-bottom: 0.4rem;
+}
+.hobbies {
+  columns: 2;
+}
+.hobbies__item {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
