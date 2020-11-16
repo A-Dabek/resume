@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Interactive Resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-Dabek/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Adrian Dąbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A-Dabek/resume/issues"
+  },
+  "homepage": "https://github.com/A-Dabek/resume#readme"
+}
